@@ -33,7 +33,7 @@ def Pydisplay(text='is cool'):
 
 
 @app.route('/number/<int:n>', strict_slashes=False)
-def Ndisplay(text='is cool'):
+def Ndisplay(n):
     """display The N is a number if only n is an integer"""
     return "{:d} is a number".format(n)
 
