@@ -29,7 +29,7 @@ def Cdisplay(text):
 @app.route('/python/<text>', strict_slashes=False)
 def Pydisplay(text='is cool'):
     """display Python followed by the value of the text variable"""
-    return 'python ' + text.replace('_', ' ')
+    return 'Python ' + text.replace('_', ' ')
 
 
 @app.route('/number/<int:n>', strict_slashes=False)
